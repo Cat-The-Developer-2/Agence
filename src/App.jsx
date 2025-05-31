@@ -40,13 +40,13 @@ const App = () => {
               agents without writing a single line of code
             </p>
 
-            <div className="email flex items-center gap-2 mt-6 bg-[#1E1E1E]/20 p-2 rounded-full border-2 border-[#3A81CA]/50">
+            <div className="email flex items-center gap-2 mt-6 bg-[#1E1E1E]/20 md:p-2 p-1 rounded-full border-2 border-[#3A81CA]/50">
               <input
                 type="email"
-                className="ml-3"
-                placeholder="Enter your email"
+                className="md:ml-3 ml-2"
+                placeholder="Email Here"
               />
-              <button className="bg-white text-black p-2 rounded-full px-4">
+              <button className="bg-white text-black p-2 rounded-full  md:px-4 px-2">
                 Book a demo
               </button>
             </div>
